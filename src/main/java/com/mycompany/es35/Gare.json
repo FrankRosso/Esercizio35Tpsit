@@ -1,0 +1,11 @@
+{
+    "gara": {
+        "campo": "A",
+        "giudice": "Robot",
+        "squadra": "Galilei",
+        "ora": "12:30:01",
+        "punteggio_percorso": 99,
+        "punteggio_difficoltà": 101,
+        "tempo": 600
+    }
+}
