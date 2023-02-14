@@ -1,30 +1,27 @@
+
 package com.mycompany.es35;
 
-import com.google.gson.annotations.SerializedName;
-
+/**
+ *
+ * @author FRANCESCODELROSSO
+ */
 public class Gara {
-
-    @SerializedName("campo")
+    
     private String campo;
-
-    @SerializedName("giudice")
     private String giudice;
-
-    @SerializedName("squadra")
     private String squadra;
-
-    @SerializedName("ora")
     private String ora;
-
-    @SerializedName("punteggio_percorso")
-    private int punteggioPercorso;
-
-    @SerializedName("punteggio_difficoltà")
-    private int punteggioDifficolta;
-
-    @SerializedName("tempo")
+    private int punteggio_percorso;
+    private int punteggio_difficolta;
     private int tempo;
 
+    @Override
+    public String toString() {
+        return "Gara{" + "campo=" + campo + ", giudice=" + giudice + ", squadra=" + squadra + ", ora=" + ora + ", punteggio_percorso=" + punteggio_percorso + ", punteggio_difficolta=" + punteggio_difficolta + ", tempo=" + tempo + '}';
+    }
+
+    
+    
     public String getCampo() {
         return campo;
     }
@@ -57,20 +54,20 @@ public class Gara {
         this.ora = ora;
     }
 
-    public int getPunteggioPercorso() {
-        return punteggioPercorso;
+    public int getPunteggio_percorso() {
+        return punteggio_percorso;
     }
 
-    public void setPunteggioPercorso(int punteggioPercorso) {
-        this.punteggioPercorso = punteggioPercorso;
+    public void setPunteggio_percorso(int punteggio_percorso) {
+        this.punteggio_percorso = punteggio_percorso;
     }
 
-    public int getPunteggioDifficolta() {
-        return punteggioDifficolta;
+    public int getPunteggio_difficolta() {
+        return punteggio_difficolta;
     }
 
-    public void setPunteggioDifficolta(int punteggioDifficolta) {
-        this.punteggioDifficolta = punteggioDifficolta;
+    public void setPunteggio_difficolta(int punteggio_difficolta) {
+        this.punteggio_difficolta = punteggio_difficolta;
     }
 
     public int getTempo() {
@@ -80,4 +77,7 @@ public class Gara {
     public void setTempo(int tempo) {
         this.tempo = tempo;
     }
+    
+    
+    
 }

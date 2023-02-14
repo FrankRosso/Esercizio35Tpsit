@@ -1,11 +1,42 @@
-{
-    "gara": {
-        "campo": "A",
-        "giudice": "Robot",
-        "squadra": "Galilei",
-        "ora": "12:30:01",
-        "punteggio_percorso": 99,
-        "punteggio_difficoltà": 101,
-        "tempo": 600
+[
+    {
+        "campo": "C",
+        "giudice": "Android",
+        "squadra": "Newton",
+        "ora": "10:00:01",
+        "punteggio_percorso": 100,
+        "punteggio_difficolta": 200,
+        "tempo": 700
+    },
+    {
+        "campo": "D",
+        "giudice": "Human",
+        "squadra": "Einstein",
+        "ora": "11:30:01",
+        "punteggio_percorso": 159,
+        "punteggio_difficolta": 296,
+        "tempo": 528
+    },
+    {
+        "campo": "E",
+        "giudice": "AI",
+        "squadra": "Newton",
+        "ora": "14:00:00",
+        "punteggio_percorso": 96,
+        "punteggio_difficolta": 124,
+        "tempo": 581
+    },
+    {
+        "campo": "F",
+        "giudice": "Humanoid",
+        "squadra": "Einstein",
+        "ora": "16:00:00",
+        "punteggio_percorso": 133,
+        "punteggio_difficolta": 205,
+        "tempo": 491
     }
-}
+]
+
+
+
+
